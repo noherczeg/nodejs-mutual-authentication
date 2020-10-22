@@ -5,3 +5,4 @@ server/*.pem
 client1/*.pem
 client2/*.pem
 *.old
+.idea

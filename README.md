@@ -15,6 +15,11 @@ node server.js
 node client.js
 ```
 
+## Verify Server Certificate
+```
+openssl s_client -showcerts -connect localhost:4433
+```
+
 > If `.key` and `.crt` files are switched to `client2`, it'll properly error out given it's on the CRL.
 
 ## Source
